@@ -58,7 +58,7 @@ app = FastAPI(
 # Falls back to your known Static Web App URL if the env var is not set.
 _raw_origins = os.getenv(
     "ALLOWED_ORIGINS",
-    "https://white-sea-03ffeb40f.7.azurestaticapps.net",
+    "https://kind-hill-0fa7d400f.7.azurestaticapps.net",
 )
 ALLOWED_ORIGINS: list[str] = [o.strip() for o in _raw_origins.split(",") if o.strip()]
 
