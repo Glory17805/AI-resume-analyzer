@@ -63,4 +63,4 @@ jobs:
         with:
           app-name: 'AI-resume-analyzer'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_EA23A6FA72F2493C80C04FFAAE90BA62 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_B92DDD0903C942E3AB6E0D691F0F223F }}
